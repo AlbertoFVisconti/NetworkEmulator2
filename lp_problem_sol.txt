@@ -1,0 +1,174 @@
+Problem:    
+Rows:       86
+Columns:    64 (30 integer, 30 binary)
+Non-zeros:  282
+Status:     INTEGER OPTIMAL
+Objective:  obj = 0.6666666667 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 o1                   -1.33333                           0 
+     2 o2                          0                           0 
+     3 o3                          0                           0 
+     4 flow_r1_ri1                 0             0             = 
+     5 flow_r2_ri1                 0             0             = 
+     6 flow_r3_ri1                 0             0             = 
+     7 flow_r4_ri1                 0             0             = 
+     8 flow_r1_ri2                 0             0             = 
+     9 flow_r2_ri2                 0             0             = 
+    10 flow_r3_ri2                 0             0             = 
+    11 flow_r4_ri2                 0             0             = 
+    12 flow_r1_ri3                 0             0             = 
+    13 flow_r2_ri3                 0             0             = 
+    14 flow_r3_ri3                 0             0             = 
+    15 flow_r4_ri3                 0             0             = 
+    16 flow_r1_i1                 -1            -1             = 
+    17 flow_r2_i1                  0             0             = 
+    18 flow_r3_i1                  0             0             = 
+    19 flow_r4_i1                  1             1             = 
+    20 flow_r1_i2                  1             1             = 
+    21 flow_r2_i2                  0             0             = 
+    22 flow_r3_i2                  0             0             = 
+    23 flow_r4_i2                 -1            -1             = 
+    24 flow_r1_i3                  0             0             = 
+    25 flow_r2_i3                  0             0             = 
+    26 flow_r3_i3                 -1            -1             = 
+    27 flow_r4_i3                  1             1             = 
+    28 in_r1_i1                    0                           1 
+    29 in_r2_i1                    1                           1 
+    30 in_r3_i1                    1                           1 
+    31 in_r4_i1                    1                           1 
+    32 in_r1_i2                    1                           1 
+    33 in_r2_i2                    1                           1 
+    34 in_r3_i2                    0                           1 
+    35 in_r4_i2                    0                           1 
+    36 in_r1_i3                    0                           1 
+    37 in_r2_i3                    0                           1 
+    38 in_r3_i3                    0                           1 
+    39 in_r4_i3                    1                           1 
+    40 out_r1_i1                   1                           1 
+    41 out_r2_i1                   1                           1 
+    42 out_r3_i1                   1                           1 
+    43 out_r4_i1                   0                           1 
+    44 out_r1_i2                   0                           1 
+    45 out_r2_i2                   1                           1 
+    46 out_r3_i2                   0                           1 
+    47 out_r4_i2                   1                           1 
+    48 out_r1_i3                   0                           1 
+    49 out_r2_i3                   0                           1 
+    50 out_r3_i3                   1                           1 
+    51 out_r4_i3                   0                           1 
+    52 r1r2_c                1.33333                           3 
+    53 r1r3_c                      8                          10 
+    54 r2r3_c                      8                           8 
+    55 r2r4_c                9.33333                          10 
+    56 r3r4_c                     10                          10 
+    57 r1r2_ci1                    0                           0 
+    58 r2r1_ci1                    0                           0 
+    59 r1r3_ci1                   -2                           0 
+    60 r3r1_ci1                    0                           0 
+    61 r2r3_ci1                    0                           0 
+    62 r3r2_ci1                    0                           0 
+    63 r2r4_ci1                   -2                           0 
+    64 r4r2_ci1                    0                           0 
+    65 r3r4_ci1                    0                           0 
+    66 r4r3_ci1                    0                           0 
+    67 r1r2_ci2                    0                           0 
+    68 r2r1_ci2             -1.66667                           0 
+    69 r1r3_ci2                    0                           0 
+    70 r3r1_ci2                    0                           0 
+    71 r2r3_ci2                    0                           0 
+    72 r3r2_ci2                    0                           0 
+    73 r2r4_ci2                    0                           0 
+    74 r4r2_ci2             -8.66667                           0 
+    75 r3r4_ci2                    0                           0 
+    76 r4r3_ci2                    0                           0 
+    77 r1r2_ci3                    0                           0 
+    78 r2r1_ci3                    0                           0 
+    79 r1r3_ci3                    0                           0 
+    80 r3r1_ci3                    0                           0 
+    81 r2r3_ci3                    0                           0 
+    82 r3r2_ci3                    0                           0 
+    83 r2r4_ci3                    0                           0 
+    84 r4r2_ci3                    0                           0 
+    85 r3r4_ci3                    0                           0 
+    86 r4r3_ci3                    0                           0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 lambda               0.666667             0               
+     2 i1                          8             0            10 
+     3 i2                    1.33333             0             2 
+     4 i3                         10             0            15 
+     5 ri1_r2r1                    0             0               
+     6 ri1_r1r2                    0             0               
+     7 ri1_r3r1                    0             0               
+     8 ri1_r1r3                    8             0               
+     9 ri1_r3r2                    8             0               
+    10 ri1_r2r3                    0             0               
+    11 ri1_r4r2                    0             0               
+    12 ri1_r2r4                    8             0               
+    13 ri1_r4r3                    0             0               
+    14 ri1_r3r4                    0             0               
+    15 ri2_r2r1              1.33333             0               
+    16 ri2_r1r2                    0             0               
+    17 ri2_r3r1                    0             0               
+    18 ri2_r1r3                    0             0               
+    19 ri2_r3r2                    0             0               
+    20 ri2_r2r3                    0             0               
+    21 ri2_r4r2              1.33333             0               
+    22 ri2_r2r4                    0             0               
+    23 ri2_r4r3                    0             0               
+    24 ri2_r3r4                    0             0               
+    25 ri3_r2r1                    0             0               
+    26 ri3_r1r2                    0             0               
+    27 ri3_r3r1                    0             0               
+    28 ri3_r1r3                    0             0               
+    29 ri3_r3r2                    0             0               
+    30 ri3_r2r3                    0             0               
+    31 ri3_r4r2                    0             0               
+    32 ri3_r2r4                    0             0               
+    33 ri3_r4r3                    0             0               
+    34 ri3_r3r4                   10             0               
+    35 i1_r2r1      *              0             0             1 
+    36 i1_r1r2      *              0             0             1 
+    37 i1_r3r1      *              0             0             1 
+    38 i1_r1r3      *              1             0             1 
+    39 i1_r3r2      *              1             0             1 
+    40 i1_r2r3      *              0             0             1 
+    41 i1_r4r2      *              0             0             1 
+    42 i1_r2r4      *              1             0             1 
+    43 i1_r4r3      *              0             0             1 
+    44 i1_r3r4      *              0             0             1 
+    45 i2_r2r1      *              1             0             1 
+    46 i2_r1r2      *              0             0             1 
+    47 i2_r3r1      *              0             0             1 
+    48 i2_r1r3      *              0             0             1 
+    49 i2_r3r2      *              0             0             1 
+    50 i2_r2r3      *              0             0             1 
+    51 i2_r4r2      *              1             0             1 
+    52 i2_r2r4      *              0             0             1 
+    53 i2_r4r3      *              0             0             1 
+    54 i2_r3r4      *              0             0             1 
+    55 i3_r2r1      *              0             0             1 
+    56 i3_r1r2      *              0             0             1 
+    57 i3_r3r1      *              0             0             1 
+    58 i3_r1r3      *              0             0             1 
+    59 i3_r3r2      *              0             0             1 
+    60 i3_r2r3      *              0             0             1 
+    61 i3_r4r2      *              0             0             1 
+    62 i3_r2r4      *              0             0             1 
+    63 i3_r4r3      *              0             0             1 
+    64 i3_r3r4      *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.78e-15 on row 56
+        max.rel.err = 1.78e-15 on row 85
+        High quality
+
+End of output
